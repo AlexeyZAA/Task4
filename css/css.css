@@ -3,14 +3,32 @@
     display: inline-block;
     border: 1px outset #D3D3D3;
 }
+/*Поле для надписей*/
+.chessAreaLabel{
+    display: inline-block;
+    border: 1px outset #756a6a;
+    width: 445px;
+}
+/*Надписи для строк*/
+.labelrow{
+    float: left;
+    text-align: center;
+}
+/*ячейка таблицы*/
+td{
+    height: 50px;
+    width: 19px;
+}
 /*квадрат*/
 #chessArea .box{
     display: inline-block;
     width: 50px;
     height: 50px;
 }
-
-
+.tablerow{
+    width:100%;
+    text-align: center;
+}
 /*между rowbox*/
 #chessArea .rowbox{
     line-height: 1px;
