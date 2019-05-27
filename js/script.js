@@ -7,6 +7,8 @@ $(document).ready(function () {
     var rateArr;
     var boxIndex;
     var rowIndex;
+    //отключаем таскание
+    $('.box').on('dragstart', function(event) { event.preventDefault(); });
     //обработчик нажатия кнопки мыши на квадрате
     $('.box').mousedown(function () {
         //запоминаем в переменную цвет нажатого квадрата, подсвечиваем другим цветом, вызываем функцию раскраски возможных ходов
